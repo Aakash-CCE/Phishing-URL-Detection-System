@@ -1,0 +1,16 @@
+url,expected_result
+https://www.google.com,Legitimate
+https://github.com/explore,Legitimate
+https://www.wikipedia.org/wiki/Python,Legitimate
+https://stackoverflow.com/questions,Legitimate
+https://www.amazon.com/dp/B09V3KXJPB,Legitimate
+http://192.168.1.1/login.php,Phishing
+http://45.33.32.156/secure/update-your-account.html,Phishing
+https://www.paypal-secure-login.suspicious-domain.com/verify,Phishing
+http://www.g00gle.com/accounts/signin,Phishing
+https://login.microsoft-verify.com/update/account?id=12345&token=abc,Phishing
+https://bit.ly/3xK9mN2,Suspicious
+https://tinyurl.com/y8d7f3k2,Suspicious
+http://sub1.sub2.sub3.example.com/path,Suspicious
+https://www.microsoft.com/en-us/windows,Legitimate
+http://example.com@evil.com/phishing,Phishing

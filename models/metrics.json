@@ -1,0 +1,41 @@
+{
+    "accuracy": 0.9916666666666667,
+    "precision": 0.9917235904827557,
+    "recall": 0.9916666666666667,
+    "f1_score": 0.9916610604377553,
+    "confusion_matrix": [
+        [
+            239,
+            1,
+            0
+        ],
+        [
+            4,
+            196,
+            0
+        ],
+        [
+            0,
+            0,
+            160
+        ]
+    ],
+    "feature_importances": {
+        "url_length": 0.05161833651508873,
+        "num_dots": 0.02519589807599622,
+        "num_hyphens": 0.06383471760201244,
+        "num_digits": 0.16321003532585332,
+        "num_special_chars": 0.025848643496285136,
+        "has_ip_address": 0.01350280371473438,
+        "has_https": 0.16923662067159315,
+        "num_subdomains": 0.03081984160979399,
+        "has_at_symbol": 0.0031346116071858435,
+        "is_shortened": 0.03035880673799173,
+        "num_params": 0.009637297369366525,
+        "path_length": 0.07393524394863035,
+        "has_suspicious_keywords": 0.2513556953267889,
+        "domain_length": 0.05095975561900964,
+        "num_slashes": 0.033103036877597705,
+        "has_double_slash_redirect": 0.004248655502071749
+    }
+}
